@@ -108,8 +108,8 @@ public class CakeView extends SurfaceView {
 
     public void paintBalloon(Canvas canvas) {
        // this method will draw a balloon
-         canvas.drawOval(model1.xPos-25.0f, model1.yPos-125.0f, model1.xPos+25.0f, model1.yPos-50.0f, balloonPaint );
-         canvas.drawLine(model1.xPos, model1.yPos, model1.xPos, model1.yPos-50.0f, stringPaint);
+         canvas.drawOval(model1.x-25.0f, model1.y-125.0f, model1.x+25.0f, model1.y-50.0f, balloonPaint );
+         canvas.drawLine(model1.x, model1.y, model1.x, model1.y-50.0f, stringPaint);
 
     }
 
